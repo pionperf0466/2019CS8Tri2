@@ -3,3 +3,9 @@ $(".pupilImage").click(
         alert("i wish it was thursday");
   }
 );
+
+$(".mouthImage").click(
+    function(){
+        var clickedMouth = $(this).css("background-image");
+  }
+);
