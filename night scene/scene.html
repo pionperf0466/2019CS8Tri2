@@ -14,16 +14,27 @@
             
         }
         #moon1{
+            background: url('pastels-drawing-moon.png') no-repeat center center;
+            background-size:contain;
             position: absolute;
-                background: url('pastels-drawing-moon.png') no-repeat center center;
-                background-size:contain;
-                position: absolute;
-                width: 80px;
-                height: 80px;
-                right: 10%;
+            width: 80px;
+            height: 80px;
+            right: 10%;
             
         }
-        .stars{
+        #ground{
+            border-radius: 50%;
+            width: 600px;
+            height: 600px;
+            background-color: #ffe6fd;
+            position: absolute;
+            right: 70%;
+            left: 0%;
+            top:60%;
+
+        }
+        #stars{
+
             
         }
         .circle{
@@ -34,13 +45,16 @@
     <body>
         <div class='body'>
             <div id='moon1' class='body'>
-                <div class='house'></div>
+                
                 
             </div>
-            <div id='window' class='house'>
+            <div class='house'>
+                <div id='window' class='house'>
             </div>
-            <div id='stars' class='body'>
+            
             </div>
+            <div id='stars' class='body'></div>
+            <div id='ground' class='body'>
         </div>
     </body>
 </html>
