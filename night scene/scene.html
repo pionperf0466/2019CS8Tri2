@@ -22,13 +22,13 @@
             right: 10%;
             
         }
-        #house{
+        #frontWall{
             width: 50px;
             height: 80px;
             background-color: white;
             position: absolute;
-            left:250px;
-            top: 303px;
+            left:0px;
+            bottom: 0px;
 
         }
         #ground{
@@ -45,17 +45,20 @@
         #window{
             width: 5px;
             height: 5px;
-
-
-            
+        }
+        #house{
+            position: absolute;
+            bottom: 300px;
+            height: 100px;
+            width: 100px;
         }
         #shadow{
              width: 40px;
             height: 80px;
             background-color:#c9adff;
             position: absolute;
-            left:300px;
-            top: 303px;
+            left:50px;
+            bottom: 0px;
             
         }
         #parallelogram {
@@ -64,8 +67,8 @@
 	        transform: skew(20deg);
 	        background-color: #677bc7;
             position: absolute;
-            left:293px;
-            top: 264px;
+            left:10px;
+            bottom: 60px;
         }
         #roof {
 	        width: 0;
@@ -126,19 +129,23 @@
     </style>
     </head>
     <body>
-        <div class='body'>
-            <div id='moon1'></div> 
-            <div id='house'></div> 
+        <div class='body'></div>
+        <div id='moon1'></div>
+        <div id='house'>
             <div id='shadow'></div>
+            <div id='frontWall'></div> 
+            
             <div id='parallelogram'></div>
             <div id='roof'></div> 
             <div id='chimney'></div> 
             <div id='top'></div> 
             <div id='smokecloud1'></div>        
             <div id='smokecloud2'></div>        
-            <div id='smokecloud3'></div>        
+            <div id='smokecloud3'></div> 
+        </div>
+               
                        
-            </div>
+            
                 <div id='window' class='house'>
             </div>
             
