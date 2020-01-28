@@ -21,20 +21,6 @@
             height: 80px;
             right: 10%;
         }
-        #clouds{
-            background: url('file:///workspace/2019CS8Tri2/night%20scene/cotton-candy-pink-cloud-pink-cloud.jpg');
-            background-size:contain;
-            position: absolute;
-            width: 500px;
-            height: 500px;
-            right:50px;
-
-
-
-
-
-        }
-        
         #frontWall{
             width: 50px;
             height: 80px;
@@ -61,7 +47,7 @@
         }
         #house{
             position: absolute;
-            bottom: 190px;
+            bottom: 250px;
             left: 250px;
             height: 100px;
             width: 100px;
@@ -132,7 +118,7 @@
 
         }
          #smokecloud3{
-             border-radius: 50%;
+            border-radius: 50%;
             width: 30px;
             height: 30px;
             background-color: white;
@@ -140,18 +126,26 @@
              left:75px;
             bottom: 160px;
          }
+         .star{
+             border-radius: 50%;
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            
+
+         }
         
     </style>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
     </head>
     <body>
         <div class='body'></div>
         <div id='moon1'></div>
-         <div id='clouds'></div>
         <div id='house'>
             <div id='shadow'></div>
             <div id='frontWall'></div> 
-            
             <div id='parallelogram'></div>
+            <div id='window'></div>
             <div id='roof'></div> 
             <div id='chimney'></div> 
             <div id='top'></div> 
@@ -159,17 +153,10 @@
             <div id='smokecloud2'></div>        
             <div id='smokecloud3'></div> 
         </div>
-               
-                       
-            
-                <div id='window' class='house'>
-            </div>
-            
-            </div>
-            <div id='stars' class='body'></div>
-            <div id='ground' class='body'>
-        </div>
+        
+        <div id='ground' class='body'></div>
     </body>
+    <script src='stars.js'></script>
 </html>
 
 

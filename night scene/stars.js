@@ -1,3 +1,7 @@
-for (i = 1; i <= 9; i++) {
-    text += "The number is " + i + "<br>";
-  }
+var randNum = 
+console.log(randNum);
+
+
+for (i = 1; i <= 100; i++) {
+    $('body').append("<div class='star'></div>");
+}
