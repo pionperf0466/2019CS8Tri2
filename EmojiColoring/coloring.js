@@ -7,5 +7,6 @@ $(".pupilImage").click(
 $(".mouthImage").click(
     function(){
         var clickedMouth = $(this).css("background-image");
+        alert(clickedMouth);
   }
 );
