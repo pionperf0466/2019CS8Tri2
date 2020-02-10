@@ -1,9 +1,10 @@
-var x = Math.floor(Math.random() * 1500);
-console.log(x);
+for (var i = 1; i <= 100; i++) {
 
-var y = Math.floor(Math.random() * 800);
-console.log(y);
+    var x = Math.floor(Math.random() * 1200);
+    console.log(x);
 
-/*for (i = 1; i <= 100; i++) {
-    $('body').append("<div class='star'></div>");
-}*/
+    var y = Math.floor(Math.random() * 800);
+    console.log(y);
+
+    $('#starContainer').append("<div class='star' style='top:" + x + "px; left:" + y +"px;'></div>");
+}
