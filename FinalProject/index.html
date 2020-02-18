@@ -8,10 +8,7 @@
         body{
             background-color: #ffc9ba;
         }
-        /* styles all images */
-        img{
-            height: 150px;
-        }
+        
         
         .animalWrapper{
             border: 4px inset yellow;
@@ -21,10 +18,24 @@
             width: 400px;
             background-color: white;
         }
+
+        #artWork{
+            height: 250px;
+        }
+
+        #description{
+            font-family: 'Courier Prime', monospace;
+            font-size: 12px;
+            float: left;
+        }
         
         .buttonWrapper{
             width: 400px;
             text-align: center;
+        }
+
+        .buttonWrapper .description{
+            display: none;
         }
         
         .button{
@@ -50,11 +61,42 @@
 </head>
 <body>
     <div class='animalWrapper'>
-        <img src='cow.png' />
+        <img id='artWork' src='images/placeHolder.jpg' />
+        <div id='description'>
+            A huge, oversized, whimsical, original painting in beautiful, bold contrasting shades of turquoise, 
+            violet, lime green and varying shades of brilliant yellow, red and orange. This painting is 
+            accented by shimmering splashes of metallic gold throughout. The shaded brilliance of the 
+            suspended moon casts reflections of crimson red on the rolling hills below, contrasted by the black 
+            silhouette of a lone tree surrounded by floating white circles. An enormous contemporary, modern 
+            piece of artwork for your home, it will definitely be the focal point of any room!
+        </div>
     </div>
     <div class='buttonWrapper'>
-        <div id='chicks' class='button'>chicks</div>
-        <div id='cow' class='button'>cow</div>
+        <div id='landscape' class='button'>
+            landscape
+            <div class='description'>
+                A huge, oversized, whimsical, original painting in beautiful, bold contrasting shades of turquoise, 
+                violet, lime green and varying shades of brilliant yellow, red and orange. This painting is 
+                accented by shimmering splashes of metallic gold throughout. The shaded brilliance of the 
+                suspended moon casts reflections of crimson red on the rolling hills below, contrasted by the black 
+                silhouette of a lone tree surrounded by floating white circles. An enormous contemporary, modern 
+                piece of artwork for your home, it will definitely be the focal point of any room!
+            </div>
+        </div>
+        <div id='cow' class='button'>
+            cow
+            <div class='description'>
+                Painting varnished for protection and enhancement
+                Hand-Signed Certificate of Authenticity included
+
+                This original oil painting captures colorful and whimsical cow in extreme texture impasto oils. A 
+                dramatic presence in any space, this contemporary original will be a great addition to any fine art 
+                collection and hangs beautifully with or without a frame on a nail.
+
+                Painted on a ¾” gallery wrapped stretched canvas and sides are painted, using highest quality artist
+                oils. This painting would make a great addition to any art collection.
+            </div>
+        </div>
         <div id='goat' class='button'>goat</div>
         <div id='pig' class='button'>pig</div>
         <div id='rooster' class='button'>rooster</div>

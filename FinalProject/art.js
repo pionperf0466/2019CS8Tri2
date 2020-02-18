@@ -1,11 +1,14 @@
-$('#chicks').click(
+$('#landscape').click(
     function(){
-        $('img').attr('src','chicks.png');
+        $('#artWork').attr('src','images/placeHolder.jpg');
+
     }
 );
 
 $('#cow').click(
     function(){
-        $('img').attr('src','cow.png');
+        $('#artWork').attr('src','images/abstractCow.jpg');
+        var currDescription = $('.description',this).text();
+        $('#description').text(currDescription);
     }
 );
