@@ -1,14 +1,15 @@
-$('#landscape').click(
+$('#portrait').click(
     function(){
-        $('#artWork').attr('src','images/placeHolder.jpg');
-
+        $('#artWork').attr('src','images/Celebration of African Hair.jpg');
+        var currDescription = $('.description',this).html();
+        $('#description').html(currDescription);
     }
 );
 
 $('#cow').click(
     function(){
         $('#artWork').attr('src','images/abstractCow.jpg');
-        var currDescription = $('.description',this).text();
-        $('#description').text(currDescription);
+        var currDescription = $('.description',this).html();
+        $('#description').html(currDescription);
     }
 );
